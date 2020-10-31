@@ -1,0 +1,27 @@
+name: Hy533-Website
+output_dir: '.'
+navbar:
+  title: <font face="Algerian">Hanyue Yang</font>
+  left:
+  - text: Home
+    icon: fa-home
+    href: index.html
+  - text: About Me
+    icon: fa-bars
+    href: About.html
+  - text: Projects
+    icon: fa-folder-open
+    href: Projects.html
+  - text: Activities
+    icon: fa-star
+    href: Activity.html
+  - text: Gallery
+    icon: fa-picture-o
+    href: Gallery.html
+output:
+  html_document:
+    theme: spacelab
+    highlight: default
+    css: style.css
+    lib_dir: site_libs
+    self_contained: no
